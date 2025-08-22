@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="48" viewBox="0 0 360 48" role="img" aria-label="Run MCP Inspector IDE in Cloud">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#3a3a3a"/>
+      <stop offset="100%" stop-color="#2a2a2a"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" rx="12" ry="12" width="360" height="48" fill="url(#bg)" stroke="#ffffff" stroke-width="2"/>
+  <g transform="translate(16,12)">
+    <circle cx="12" cy="12" r="12" fill="none" stroke="#ffffff" stroke-width="2"/>
+    <path d="M9 8h6l-3 6z" fill="#ffffff"/>
+    <path d="M6 16a10 10 0 0 0 10 10" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/>
+    <path d="M18 8a10 10 0 0 0-10-10" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" transform="translate(0,10)"/>
+  </g>
+  <text x="56" y="30" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="600">Run MCP Inspector IDE in Cloud</text>
+ </svg>
+
