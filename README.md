@@ -4,13 +4,13 @@ MCP HelloWorld for Code Exchange with web MCP Inspector
 ## Try it in Cisco DevNet DevEnv (no local setup)
 Click to launch a browser-based environment with this repo pre-cloned and FastMCP preinstalled:
 
-[![Run MCP Inspector IDE in Cloud](assets/run-in-cloud-ide.svg)](https://testing-developer.cisco.com/devenv/?id=devenv-base-mcp-inspector&GITHUB_SOURCE_REPO=https://github.com/npateriya/mcp-helloworld-codeex)
+[![Run MCP Inspector IDE in Cloud](assets/run-in-cloud-ide.svg)](https://testing-developer.cisco.com/devenv/?id=devenv-base-mcp-inspector&GITHUB_SOURCE_REPO=https://github.com/npateriya/mcp-helloworld-code-exch)
 
 Note: This DevEnv link is Cisco-internal.
 
 Once the DevEnv opens:
-- Clone repo `git clone https://github.com/npateriya/mcp-helloworld-codeex`
-- Change working dir `cd mcp-helloworld-codeex`
+- Clone repo `git clone https://github.com/npateriya/mcp-helloworld-code-exch`
+- Change working dir `cd mcp-helloworld-code-exch`
 - Install requirements `pip install -r requirements.txt`
 - Start the server (HTTP on 9000) if needed: `python demo_mcp.py`
   - MCP server endpoint: `http://127.0.0.1:9000/mcp` (transport: streamable-http)
@@ -53,7 +53,7 @@ python demo_mcp.py
 
 ## Quick start (venv)
 ```bash
-cd /Users/npateriy/devnet/src/wwwin-github.cisco.com/DevNet/mcp-helloworld-codeex
+cd mcp-helloworld-code-exch
 python3 -m venv .venv
 source .venv/bin/activate
 python -m pip install -U pip wheel setuptools
