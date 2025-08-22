@@ -10,6 +10,7 @@ Note: This DevEnv link is Cisco-internal.
 
 Once the DevEnv opens:
 - Clone repo `git clone https://github.com/npateriya/mcp-helloworld-codeex`
+- Change working dir `cd mcp-helloworld-codeex`
 - Install requirements `pip install -r requirements.txt`
 - Start the server (HTTP on 9000) if needed: `python demo_mcp.py`
   - MCP server endpoint: `http://127.0.0.1:9000/mcp` (transport: streamable-http)
