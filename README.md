@@ -1,14 +1,19 @@
-# MCP HelloWorld for CodeExchnage integrated MCP InspectorDemo
-MCP HelloWorld for CodeExchange with web-MCPInspector 
+# MCP HelloWorld for Code Exchange – integrated MCP Inspector Demo
+MCP HelloWorld for Code Exchange with web MCP Inspector
 
 ## Try it in Cisco DevNet DevEnv (no local setup)
 Click to launch a browser-based environment with this repo pre-cloned and FastMCP preinstalled:
 
 [![Run MCP Inspector IDE in Cloud](assets/run-in-cloud-ide.svg)](https://testing-developer.cisco.com/devenv/?id=devenv-base-mcp-inspector&GITHUB_SOURCE_REPO=https://github.com/npateriya/mcp-helloworld-codeex)
 
+Note: This DevEnv link is Cisco-internal.
+
 Once the DevEnv opens:
+- Clone repo `git clone https://github.com/npateriya/mcp-helloworld-codeex`
+- Install requirements `pip install -r requirements.txt`
 - Start the server (HTTP on 9000) if needed: `python demo_mcp.py`
-- To open the MCP Inspector via the proxy, run this in the terminal:
+  - MCP server endpoint: `http://127.0.0.1:9000/mcp` (transport: streamable-http)
+- To open the MCP Inspector via the proxy, run this in a new terminal tab ('+' to open a new tab):
 
 ```bash
 ./scripts/mcp_inspector_url.sh
@@ -24,6 +29,16 @@ echo "${DEVENV_APP_8080_URL}?MCP_PROXY_AUTH_TOKEN=${DEVENV_PASSWORD}&MCP_PROXY_F
 </details>
 
 Open the printed URL in a new tab. In Inspector, choose the appropriate transport (HTTP/STDIO based on your use) and connect. You should see logs like 200 OK requests in the DevEnv terminal when invoking tools.
+  - MCP server endpoint: `http://127.0.0.1:9000/mcp` (transport: streamable-http). Configure these in MCP Inspector and test tools.
+
+### Local run (quick)
+If you prefer local instead of DevEnv:
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+python -m pip install -r requirements.txt
+python demo_mcp.py
+```
 
 
 
