@@ -1,5 +1,7 @@
 # MCP HelloWorld for Code Exchange – integrated MCP Inspector Demo
-MCP HelloWorld for Code Exchange with web MCP Inspector
+MCP HelloWorld for Code Exchange with web MCP Inspector. This repo contains a tiny FastMCP server and a simple demo that you can run locally or instantly in Cisco DevNet DevEnv. It showcases three small tools that are handy for quick testing and network workflows: `roll_dice` (random dice), `nslookup` (DNS lookup wrapper), and `cidr_info_ipv4` (IPv4 subnet facts). Use the "Run MCP Inspector IDE in Cloud" button to launch a preconfigured environment, then open the included MCP Inspector to invoke the tools. A short internal demo recording is linked below for a quick walkthrough.
+
+Cisco-internal demo: https://app.vidcast.io/share/0a514521-2c77-4580-a2dd-69532c8bfeb3
 
 ## Try it in Cisco DevNet DevEnv (no local setup)
 Click to launch a browser-based environment with this repo pre-cloned and FastMCP preinstalled:
